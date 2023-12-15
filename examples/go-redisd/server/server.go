@@ -15,7 +15,7 @@
 package server
 
 import (
-	"github.com/cybergarage/go-redis/redis"
+	"github.com/trueblacker/go-redis/redis"
 )
 
 // Server represents an example server.

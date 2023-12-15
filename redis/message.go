@@ -17,7 +17,7 @@ package redis
 import (
 	"strconv"
 
-	"github.com/cybergarage/go-redis/redis/proto"
+	"github.com/trueblacker/go-redis/redis/proto"
 )
 
 // Message represents a message of Redis serialization protocol.

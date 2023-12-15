@@ -17,7 +17,7 @@ package server
 import (
 	"time"
 
-	"github.com/cybergarage/go-redis/redis"
+	"github.com/trueblacker/go-redis/redis"
 )
 
 ////////////////////////////////////////////////////////////

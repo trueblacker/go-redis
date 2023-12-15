@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cybergarage/go-redis/redis/proto"
+	"github.com/trueblacker/go-redis/redis/proto"
 )
 
 // nolint: gocyclo, maintidx

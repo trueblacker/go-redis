@@ -17,7 +17,7 @@ SHELL := bash
 GOBIN := $(shell go env GOPATH)/bin
 PATH := $(GOBIN):$(PATH)
 
-MODULE_ROOT=github.com/cybergarage/go-redis
+MODULE_ROOT=github.com/trueblacker/go-redis
 
 PKG_NAME=redis
 PKG_VER=$(shell git describe --abbrev=0 --tags)

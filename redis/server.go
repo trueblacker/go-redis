@@ -21,7 +21,7 @@ import (
 	"strconv"
 
 	"github.com/cybergarage/go-logger/log"
-	"github.com/cybergarage/go-redis/redis/proto"
+	"github.com/trueblacker/go-redis/redis/proto"
 	"github.com/cybergarage/go-tracing/tracer"
 )
 

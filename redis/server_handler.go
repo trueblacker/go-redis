@@ -17,7 +17,7 @@ package redis
 import (
 	"strings"
 
-	"github.com/cybergarage/go-redis/redis/proto"
+	"github.com/trueblacker/go-redis/redis/proto"
 )
 
 type Arguments = *proto.Array

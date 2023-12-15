@@ -17,8 +17,8 @@ package server
 import (
 	"time"
 
-	"github.com/cybergarage/go-redis/redis"
-	"github.com/cybergarage/go-redis/redis/regexp"
+	"github.com/trueblacker/go-redis/redis"
+	"github.com/trueblacker/go-redis/redis/regexp"
 )
 
 func (server *Server) Del(conn *redis.Conn, keys []string) (*redis.Message, error) {

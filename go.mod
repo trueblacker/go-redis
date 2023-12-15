@@ -1,6 +1,6 @@
-module github.com/cybergarage/go-redis
+module github.com/trueblacker/go-redis
 
-go 1.21
+go 1.20
 
 require (
 	github.com/cybergarage/go-logger v1.3.4
@@ -10,5 +10,5 @@ require (
 
 require (
 	github.com/onsi/ginkgo v1.16.5 // indirect
-	github.com/onsi/gomega v1.19.0 // indirect
+	github.com/onsi/gomega v1.30.0 // indirect
 )

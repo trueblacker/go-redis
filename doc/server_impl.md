@@ -10,7 +10,7 @@ At first, inherit the base server of the go-redis to implement your Redis-compat
 
 ```
 import (
-	"github.com/cybergarage/go-redis/redis"
+	"github.com/trueblacker/go-redis/redis"
 )
 
 type Server struct {

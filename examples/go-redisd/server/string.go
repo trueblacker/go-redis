@@ -17,7 +17,7 @@ package server
 import (
 	"time"
 
-	"github.com/cybergarage/go-redis/redis"
+	"github.com/trueblacker/go-redis/redis"
 )
 
 func (server *Server) Set(conn *redis.Conn, key string, val string, opt redis.SetOption) (*redis.Message, error) {
