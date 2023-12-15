@@ -127,6 +127,8 @@ func nextHashArgument(cmd string, args Arguments) (string, error) {
 
 // List argument fuctions
 
+var NextPushArguments = nextPushArguments
+
 func nextPushArguments(cmd string, args Arguments) (string, []string, error) {
 	key, err := nextKeyArgument(cmd, args)
 	if err != nil {
